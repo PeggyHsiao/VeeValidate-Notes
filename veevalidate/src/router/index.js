@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Validate from '@/components/Validate'
+import VeeValidate from '@/components/VeeValidate'
 
 Vue.use(Router)
 
 const routes = [
     {
-        path: '/validate',
-        name: 'validate',
-        component: Validate
+        path: '/veevalidate',
+        name: 'veevalidate',
+        component: VeeValidate
     }
 ];
 
