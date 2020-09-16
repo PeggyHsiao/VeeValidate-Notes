@@ -1,23 +1,23 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VeeValidate from 'vee-validate'
-import zhTW from 'vee-validate/dist/locale/zh_TW'
-import VueI18n from 'vue-i18n'
+import tw from 'vee-validate/dist/locale/zh_TW'
 import router from '@/router/index'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import i18n from '@/lang/index'
 
 Vue.config.productionTip = false
 
-Vue.use(VueI18n)
+Vue.use(BootstrapVue)
 
-const i18n = new VueI18n({
-  locale: 'zhTW'
-})
 
 Vue.use(VeeValidate,{
+    locale: 'tw',
     events: 'input|blur',
-    i18n,
     dictionary:{
-      zhTW
+      tw,
     }
 })
 
