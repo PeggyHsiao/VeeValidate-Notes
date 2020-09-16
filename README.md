@@ -60,7 +60,7 @@ new Vue({
 如果需要放入超過一個的驗證規定，使用`|`串接，例如：`v-validate: required|email`。
 > 還有很多驗證參數可以到[這篇文章](https://segmentfault.com/a/1190000011296437)看看。 
 
-當驗證未通過會產生`errors`，常用的有以下兩個：
+當驗證未通過會產生`errors`，常用的有以下兩個：
 - errors.has(name)：判斷是否驗證失敗
 - errors.first(name)：跳出驗證錯誤的提示訊息
 > - "name"為input的name值   
