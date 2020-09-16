@@ -132,4 +132,4 @@ export default {
 </script>
 ```
 當驗證失敗的時候會像這樣
-![image](https://github.com/PeggyHsiao/VeeValidate-Notes/tree/master/images/1.jpg)  
+![](https://github.com/PeggyHsiao/VeeValidate-Notes/tree/master/images/1.jpg)  
